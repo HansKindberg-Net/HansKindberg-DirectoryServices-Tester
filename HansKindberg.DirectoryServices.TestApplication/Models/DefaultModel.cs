@@ -21,6 +21,7 @@ namespace HansKindberg.DirectoryServices.TestApplication.Models
 		public virtual Exception Exception { get; set; }
 		public virtual IIdentity HttpIdentity { get; set; }
 		public virtual IdentitySection IdentitySection { get; set; }
+		public virtual string MachineName { get; set; }
 
 		[SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
 		public virtual IDictionary<string, string> Schemes { get; set; }

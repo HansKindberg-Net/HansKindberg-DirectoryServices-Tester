@@ -101,6 +101,10 @@
 						<h2>Information</h2>
 						<asp:PlaceHolder id="informationPlaceHolder" runat="server">
 							<h3>Context</h3>
+							<h4>Machine</h4>
+							<ul>
+								<li><strong>Name: </strong><%# this.Model.MachineName %></li>
+							</ul>
 							<h4>Thread-identity</h4>
 							<ul>
 								<li><strong>Name: </strong><%# this.Model.ThreadIdentity.Name %></li>

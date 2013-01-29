@@ -88,6 +88,8 @@ namespace HansKindberg.DirectoryServices.TestApplication.Presenters
 			this.PopulateModelIdentities();
 			this.PopulateModelConfigurations();
 
+			this.View.Model.MachineName = Environment.MachineName;
+
 			this.View.Model.AuthenticationTypes = new Dictionary<string, string>();
 			foreach(string name in Enum.GetNames(typeof(AuthenticationTypes)))
 			{
