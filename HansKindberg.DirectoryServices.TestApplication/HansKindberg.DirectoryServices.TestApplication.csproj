@@ -106,6 +106,7 @@
     <Content Include="..\HansKindberg.snk">
       <Link>HansKindberg.snk</Link>
     </Content>
+    <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.Template.config</DependentUpon>
     </None>

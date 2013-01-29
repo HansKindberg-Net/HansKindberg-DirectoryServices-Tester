@@ -6,6 +6,7 @@ obj/
 packages/
 release/
 testresults/
+*.pubxml
 *.suo
 *.user
 .nuget/NuGet.exe
